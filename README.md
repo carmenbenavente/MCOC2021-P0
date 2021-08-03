@@ -13,16 +13,15 @@
   * Humero de hilos: 4 
   * Arquitectura: x64 
   * Set de instrucciones: ?(no se)
-* Tamaño de las cachés del procesador ?(no se)
-  * L1d: 32KB
-  * L1i: 32KB
-  * L2: 256KB
-  * L3: 8192KB
+* Tamaño de las cachés del procesador 
+  * L1: 128KB
+  * L2: 512KB
+  * L3: 3MB
 * Memoria 
   * Total: 16 GB
-  * Tipo memoria: DDR3 ?(no se)
-  * Velocidad 1867 MHz ?(no se)
-  * Numero de (SO)DIMM: 4 ?(no se)
+  * Tipo memoria: DDR3 
+  * Velocidad 2133 MHz 
+  * Numero de (SO)DIMM: 2
 * Tarjeta Gráfica
   * Marca / Modelo: AMD Radeon R7 M340
   * Memoria dedicada: 8192 MB 
