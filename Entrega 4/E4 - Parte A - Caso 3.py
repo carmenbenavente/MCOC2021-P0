@@ -16,6 +16,8 @@ fid = open("rendimientoE4A3.txt","w")
 Ns = [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000] #desde 5000 hacia arriba, solve tira error, por eso lo dejo hasta ese número
 dtsdb = []
 dts32 = []
+memsdb=[]
+mems32=[]
 
 for N in Ns:
     A = laplaciana32(N)
@@ -27,12 +29,15 @@ for N in Ns:
 
     t2 = perf_counter()
 
+    uso_memoria_total = A.nbytes + B.nbytes + x.nbytes
+    mems32.append(uso_memoria_total)
+
     dt = t2 - t1
     dts32.append(dt)
 
-    print(f"Solve: N = {N} dt = {dt} s ")
+    print(f"N = {N} dt = {dt} s mem = {uso_memoria_total} bytes")
 
-    fid.write(f" dtype = float 32 {N} {dt} \n")
+    fid.write(f" dtype = float 32 N = {N} dt = {dt} s mem = {uso_memoria_total} bytes \n")
 
     A = laplacianadb(N)
     B = ones(N)
@@ -43,19 +48,30 @@ for N in Ns:
 
     t2 = perf_counter()
 
+    uso_memoria_total = A.nbytes + B.nbytes + x.nbytes
+    memsdb.append(uso_memoria_total)
+
     dt = t2 - t1
     dtsdb.append(dt)
 
-    print(f"Solve: N = {N} dt = {dt} s ")
+    print(f"N = {N} dt = {dt} s mem = {uso_memoria_total} bytes")
 
-    fid.write(f" dtype = double {N} {dt} \n")
+    fid.write(f" dtype = double N = {N} dt = {dt} s mem = {uso_memoria_total} bytes \n")
 
 fid.close()
 plt.figure(1)
-plt.loglog(Ns,dts32, '-ro', label='Float 32')
-plt.loglog(Ns,dtsdb, '-bo', label='Double')
+plt.subplot(2, 1, 1)
+plt.loglog(Ns, dts32, '-ro', label='Float 32')
+plt.loglog(Ns, dtsdb, '-bo', label='Double')
 plt.xlabel('Tamaño N')
 plt.ylabel('Tiempo s')
 plt.title('Parte A Caso 3 Solve')
-plt.legend(loc='upper right')
+plt.legend(loc='upper left')
+plt.subplot(2, 1, 2)
+plt.loglog(Ns, mems32, '-ro', label='Float 32')
+plt.loglog(Ns, memsdb, '-bo', label='Double')
+plt.xlabel('Tamaño N')
+plt.ylabel('Memoria bytes')
+plt.legend(loc='upper left')
+plt.savefig('GraficoE4A3.png')
 plt.show()

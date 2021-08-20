@@ -1,18 +1,18 @@
- dtype = float 32 1000 0.3228616000000001 
- dtype = double 1000 0.30594699999999997 
- dtype = float 32 1500 0.9468075 
- dtype = double 1500 1.0984653 
- dtype = float 32 2000 2.1706296000000003 
- dtype = double 2000 2.423553400000001 
- dtype = float 32 2500 4.1294986 
- dtype = double 2500 5.545604500000001 
- dtype = float 32 3000 6.346247699999999 
- dtype = double 3000 8.525038300000002 
- dtype = float 32 3500 10.706665700000002 
- dtype = double 3500 13.854414000000006 
- dtype = float 32 4000 15.011537999999994 
- dtype = double 4000 21.5487641 
- dtype = float 32 4500 18.184624099999994 
- dtype = double 4500 26.684327999999994 
- dtype = float 32 5000 24.057392399999998 
- dtype = double 5000 36.431017999999995 
+ dtype = float 32 N = 1000 dt = 0.4238318000000001 s mem = 8004000 bytes 
+ dtype = float 32 N = 1000 dt = 0.40213220000000005 s mem = 16008000 bytes 
+ dtype = float 32 N = 1500 dt = 1.5005654 s mem = 18006000 bytes 
+ dtype = float 32 N = 1500 dt = 1.7382091000000002 s mem = 36012000 bytes 
+ dtype = float 32 N = 2000 dt = 3.9696485 s mem = 32008000 bytes 
+ dtype = float 32 N = 2000 dt = 5.9286519 s mem = 64016000 bytes 
+ dtype = float 32 N = 2500 dt = 6.726229999999999 s mem = 50010000 bytes 
+ dtype = float 32 N = 2500 dt = 5.971525800000002 s mem = 100020000 bytes 
+ dtype = float 32 N = 3000 dt = 7.882053500000001 s mem = 72012000 bytes 
+ dtype = float 32 N = 3000 dt = 9.9467942 s mem = 144024000 bytes 
+ dtype = float 32 N = 3500 dt = 12.8957348 s mem = 98014000 bytes 
+ dtype = float 32 N = 3500 dt = 15.936812400000008 s mem = 196028000 bytes 
+ dtype = float 32 N = 4000 dt = 18.1996192 s mem = 128016000 bytes 
+ dtype = float 32 N = 4000 dt = 23.698986599999998 s mem = 256032000 bytes 
+ dtype = float 32 N = 4500 dt = 23.949632100000002 s mem = 162018000 bytes 
+ dtype = float 32 N = 4500 dt = 34.469780000000014 s mem = 324036000 bytes 
+ dtype = float 32 N = 5000 dt = 31.585412899999994 s mem = 200020000 bytes 
+ dtype = float 32 N = 5000 dt = 44.78100459999999 s mem = 400040000 bytes 

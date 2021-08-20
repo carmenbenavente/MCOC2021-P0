@@ -1,18 +1,18 @@
- dtype = float 32 1000 0.041126999999999914 
- dtype = double 1000 0.037379700000000016 
- dtype = float 32 1500 0.08296480000000006 
- dtype = double 1500 0.1001730999999999 
- dtype = float 32 2000 0.17708020000000024 
- dtype = double 2000 0.4216838000000003 
- dtype = float 32 2500 0.3496676000000001 
- dtype = double 2500 0.35805330000000035 
- dtype = float 32 3000 0.5452301999999998 
- dtype = double 3000 0.6685473000000002 
- dtype = float 32 3500 0.8260642999999996 
- dtype = double 3500 0.9578228999999991 
- dtype = float 32 4000 1.1867576999999994 
- dtype = double 4000 1.4308749999999986 
- dtype = float 32 4500 1.7890664999999988 
- dtype = double 4500 2.177366600000001 
- dtype = float 32 5000 2.3971395000000015 
- dtype = double 5000 2.5927393999999993 
+ dtype = float 32 N = 1000 dt = 0.027012500000000106 s mem = 4016000 bytes 
+ dtype = double N = 1000 dt = 0.024696700000000016 s mem = 8016000 bytes 
+ dtype = float 32 N = 1500 dt = 0.05600279999999991 s mem = 9024000 bytes 
+ dtype = double N = 1500 dt = 0.06090399999999985 s mem = 18024000 bytes 
+ dtype = float 32 N = 2000 dt = 0.14334080000000005 s mem = 16032000 bytes 
+ dtype = double N = 2000 dt = 0.15904239999999992 s mem = 32032000 bytes 
+ dtype = float 32 N = 2500 dt = 0.25757110000000005 s mem = 25040000 bytes 
+ dtype = double N = 2500 dt = 0.4626319999999997 s mem = 50040000 bytes 
+ dtype = float 32 N = 3000 dt = 0.6997675000000001 s mem = 36048000 bytes 
+ dtype = double N = 3000 dt = 0.8175336 s mem = 72048000 bytes 
+ dtype = float 32 N = 3500 dt = 1.0046947 s mem = 49056000 bytes 
+ dtype = double N = 3500 dt = 1.2805538000000007 s mem = 98056000 bytes 
+ dtype = float 32 N = 4000 dt = 0.9236068 s mem = 64064000 bytes 
+ dtype = double N = 4000 dt = 1.0220814999999988 s mem = 128064000 bytes 
+ dtype = float 32 N = 4500 dt = 1.093883700000001 s mem = 81072000 bytes 
+ dtype = double N = 4500 dt = 1.4971688000000007 s mem = 162072000 bytes 
+ dtype = float 32 N = 5000 dt = 1.8299289000000005 s mem = 100080000 bytes 
+ dtype = double N = 5000 dt = 2.0712355000000002 s mem = 200080000 bytes 

@@ -1,18 +1,18 @@
- dtype = float 32 1000 0.18613959999999996 
- dtype = double 1000 0.4393289 
- dtype = float 32 1500 0.7704589 
- dtype = double 1500 0.8518471999999999 
- dtype = float 32 2000 1.7464707000000002 
- dtype = double 2000 2.4813042000000003 
- dtype = float 32 2500 3.3225078000000003 
- dtype = double 2500 3.4457012000000002 
- dtype = float 32 3000 4.1393319 
- dtype = double 3000 6.2112075 
- dtype = float 32 3500 5.719058200000003 
- dtype = double 3500 12.136358799999996 
- dtype = float 32 4000 13.600072599999997 
- dtype = double 4000 18.8909917 
- dtype = float 32 4500 22.020943599999995 
- dtype = double 4500 32.0155587 
- dtype = float 32 5000 33.946368500000005 
- dtype = double 5000 42.674773499999986 
+ dtype = float 32 N = 1000 dt = 0.25021629999999995 s mem = 8004000 bytes 
+ dtype = float 32 N = 1000 dt = 0.26097899999999985 s mem = 16008000 bytes 
+ dtype = float 32 N = 1500 dt = 0.5841605999999999 s mem = 18006000 bytes 
+ dtype = float 32 N = 1500 dt = 0.7814649999999999 s mem = 36012000 bytes 
+ dtype = float 32 N = 2000 dt = 1.2329974999999997 s mem = 32008000 bytes 
+ dtype = float 32 N = 2000 dt = 1.9736883 s mem = 64016000 bytes 
+ dtype = float 32 N = 2500 dt = 2.3329113999999995 s mem = 50010000 bytes 
+ dtype = float 32 N = 2500 dt = 2.7855548999999993 s mem = 100020000 bytes 
+ dtype = float 32 N = 3000 dt = 4.2279324 s mem = 72012000 bytes 
+ dtype = float 32 N = 3000 dt = 4.717543499999998 s mem = 144024000 bytes 
+ dtype = float 32 N = 3500 dt = 6.039875799999997 s mem = 98014000 bytes 
+ dtype = float 32 N = 3500 dt = 7.767773999999999 s mem = 196028000 bytes 
+ dtype = float 32 N = 4000 dt = 9.202297199999997 s mem = 128016000 bytes 
+ dtype = float 32 N = 4000 dt = 10.795053600000003 s mem = 256032000 bytes 
+ dtype = float 32 N = 4500 dt = 10.316279699999996 s mem = 162018000 bytes 
+ dtype = float 32 N = 4500 dt = 13.536253000000002 s mem = 324036000 bytes 
+ dtype = float 32 N = 5000 dt = 13.9470922 s mem = 200020000 bytes 
+ dtype = float 32 N = 5000 dt = 18.118826 s mem = 400040000 bytes 
