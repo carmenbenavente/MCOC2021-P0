@@ -1,44 +1,5 @@
 # MCOC2021-P0
 
-# Mi computador principal
+Haga un comentario completo respecto de todo lo que ve en términos de desempeño en cada problema. ¿Como es la variabilidad del tiempo de ejecucion para cada algoritmo? ¿Qué algoritmo gana (en promedio) en cada caso? ¿Depende del tamaño de la matriz? ¿A que se puede deber la superioridad de cada opción? ¿Su computador usa más de un proceso por cada corrida? ¿Que hay del uso de memoria (como crece)? 
 
-* Marca/modelo: HP 14-bp004ia
-* Tipo: Notebook
-* Año adquisición: 2017
-* Procesador:
-  * Marca/Modelo: Intel Core i5-7200U
-  * Velocidad Base: 2.50 GHz
-  * Velocidad Máxima: 2.71 GHz 
-  * Numero de núcleos: 2 
-  * Humero de hilos: 4 
-  * Arquitectura: x64 
-  * Set de instrucciones: ?(no se)
-* Tamaño de las cachés del procesador 
-  * L1: 128KB
-  * L2: 512KB
-  * L3: 3MB
-* Memoria 
-  * Total: 16 GB
-  * Tipo memoria: DDR3 
-  * Velocidad 2133 MHz 
-  * Numero de (SO)DIMM: 2
-* Tarjeta Gráfica
-  * Marca / Modelo: AMD Radeon R7 M340
-  * Memoria dedicada: 8192 MB 
-  * Resolución: 1366 x 768
-* Disco 1: 
-  * Marca: Kingston
-  * Tipo: Disk Drive
-  * Tamaño: 894GB
-  * Particiones: 4
-  * Sistema de archivos: EXT4, swap
-
-  
-* Dirección MAC de la tarjeta wifi: B0-52-16-3B-14-71
-* Dirección IP (Interna, del router): 192.168.56.1
-* Dirección IP (Externa, del ISP): 192.168.86.23
-* Proveedor internet: Entel Chile S.A.
-
-
-
-
+Se logra notar claramente que la función solve utiliza muchos menos recursos que la función eigh, pero al mismo tiempo, la función solve queda corta a partir de cierto número mientras que eigh es capás de más. En el caso del aumento de tamaño, es exponencial el cambio, va aumentando considerablemente entre un valor y otro. No sé si mi computador usa mas de un proceso por corrida, tampoco se como ver eso jajaja. El uso de la memoria yo creo que es alto, ya que se me quedó pegado el computador varias veces mientras corria los códigos.
