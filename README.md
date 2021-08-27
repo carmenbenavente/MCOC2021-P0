@@ -1,5 +1,20 @@
 # MCOC2021-P0
 
-Haga un comentario completo respecto de todo lo que ve en términos de desempeño en cada problema. ¿Como es la variabilidad del tiempo de ejecucion para cada algoritmo? ¿Qué algoritmo gana (en promedio) en cada caso? ¿Depende del tamaño de la matriz? ¿A que se puede deber la superioridad de cada opción? ¿Su computador usa más de un proceso por cada corrida? ¿Que hay del uso de memoria (como crece)? 
+En esta entrega se nota una clara diferencia entre las matrices que estan completas y las que son dispersas. Para comenzar, el rango de valores que utilicé para las matrices completas es de máximo 5.000 mientras que en las dispersas es de 5.000.000 y aún así se demora menos el código de las dispersas. A lo largo de toda la entrega 0 no logré entender bien que era lo que nos pedían cuando decían el llevar al máximo el computador, por eso inventaba valores que se demoraran en total en correr aproximadamente unos 2 minutos y ahí lo dejaba. En términos de código, la diferencia es más que nada que en el caso de las dispersas utilicé la libreria sparce de scipy mas que numpy. A continuación presento los códigos y gráficos de cada una de las partes.
 
-Se logra notar claramente que la función solve utiliza muchos menos recursos que la función eigh, pero al mismo tiempo, la función solve queda corta a partir de cierto número mientras que eigh es capás de más. En el caso del aumento de tamaño, es exponencial el cambio, va aumentando considerablemente entre un valor y otro. No sé si mi computador usa mas de un proceso por corrida, tampoco se como ver eso jajaja. El uso de la memoria yo creo que es alto, ya que se me quedó pegado el computador varias veces mientras corria los códigos.
+```
+import numpy as np
+def matriz_laplaciana(N, t=np.double):
+    e = np.eye(N) - np.eye(N, N, 1)
+    return t(e + e.T)
+```
+![GraficoE5Completas](https://user-images.githubusercontent.com/62263342/131179992-fc22f76c-387e-4dc9-85f7-3e295a8ce925.png)
+
+
+```
+import scipy.sparse as sparce
+def matriz_laplaciana(N, t=np.double):
+    return sparce.eye(N, dtype=t) - sparce.eye(N,N,1,dtype=t)
+```
+
+![GraficoE5Dispersas](https://user-images.githubusercontent.com/62263342/131179542-47349905-9020-4333-8032-886c79fcc709.png)
