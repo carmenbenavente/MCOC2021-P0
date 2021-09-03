@@ -11,7 +11,7 @@ A continuación muestro los gráficos para cada caso:
 ![GraficoE6DispersasInv](https://user-images.githubusercontent.com/62263342/132064929-13e4ee43-77ac-4c78-9fc4-e172d4c35c3a.png)
 ![GraficoE6DispersasSolve](https://user-images.githubusercontent.com/62263342/132064932-9bd28715-de12-4472-9634-75002be5ba4e.png)
 
-La major diferencia que se puede ver en el caso de matrices llenas y dispersas es el timepo de ensamblado de las matrices. En términos de tiempo en el caso de las soluciones no es tán notoria la diferencia pero se ve que en el caso de las matrices dispersas existe una tendencia lineal menor que en las completas.
+La mayor diferencia que se puede ver en el caso de matrices llenas y dispersas es el timepo de ensamblado de las matrices. En términos de tiempo en el caso de las soluciones no es tán notoria la diferencia pero se ve que en el caso de las matrices dispersas existe una tendencia lineal menor que en las completas.
 
 La mayor complejidad es que en todos los caso, mientras más grande sea el valor de N, mayor es el tiempo de ejecución y de ensamblaje. Esto significa que al tener un N tendiendo a infinito, puede generar que el programa colapse por un tema de espera del programa. En el caso de Solve, es mayor el tiempo utilizado que en el caso de INV.
 
